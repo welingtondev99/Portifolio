@@ -1,0 +1,38 @@
+.nav{
+    border-bottom: 1px solid rgb(184, 184, 184);
+    display: flex;
+    height: 84px;
+    padding: 0% 12%;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 16px;
+    font-family: var(--font-sans);
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+.transparente{
+    background: rgba(250, 251, 252, 0.765);
+    backdrop-filter: blur(20px);
+}
+
+.texto-cor{
+    color: var(--azul);
+    display: inline-flex;
+    margin: 0px;
+    padding: 0px;
+}
+
+.alinhamento-nave{
+    display: flex;
+    gap: 20px;
+    color: var(--azul-cinza);
+    
+}
+
+.alinhamento-nave li:hover{
+    color: rgb(5, 5, 5);
+}
+
+

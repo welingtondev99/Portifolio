@@ -1,0 +1,73 @@
+.conteudo-sobre{
+    display: flex;
+    padding: 96px;
+    gap: 100px;
+}
+
+.teste{
+    position: relative;
+    display: inline-block;
+}
+
+.teste img{
+    width: 380px;
+    height: 480px;
+    object-fit: cover;
+    object-position: center top;
+    border-radius: 15px;
+    background-color: var(--texto-escuro);
+    display: block;
+    
+}
+
+.sobre-div{
+    display: flex;
+    flex-direction: column;
+    padding: 23px;
+    position: absolute;
+    z-index: 2;
+    top: 400px;
+    right: -20px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    width: 200px;
+    height: 105px;
+}
+
+.teste2{
+    font-size: 12px;
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+}
+
+.pisca{
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: rgb(14, 166, 52);
+    display: block;
+    animation: pisca infinite 1s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.alinhamento-texto{
+    width: 60%;
+}
+
+@keyframes pisca {
+ 0%{
+    box-shadow: '';
+ }
+ 100%{
+    box-shadow: rgb(46, 164, 27) 0px 0px 6px, rgb(51, 243, 29) 0px 1px 12px;
+ }
+
+    
+}
+
+.space-grotesk{
+    font-family: var(--fonte-display);
+    font-size: 12PX;
+    font-weight: 600;
+    margin-bottom: 10px;
+}

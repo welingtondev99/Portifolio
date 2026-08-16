@@ -1,8 +1,8 @@
 @import url('../css/nav.css');
 @import url('../css/inicio.css');
 @import url('../css/sobre.css');
-/*@import url('habilidades.css');
-@import url('projetos.css');
+@import url('../css/habilidades.css');
+/* @import url('projetos.css');
 @import url('contato.css'); */
 
 :root {
@@ -14,6 +14,9 @@
     --azul: #3b82f6;
     --font-display: "Space Grotesk", sans-serif;
     --font-sans: "DM Sans", sans-serif;
+
+    /* --transparente: rgba(250, 251, 252, 0.765) 'backdrop-filter': blur(20px); */
+  
 }
 
 .titulo{
@@ -53,7 +56,7 @@
 }
 
 .largura-maxima{
-    width: 60%;
+    width: 80%;
     display: block;
 }
 
@@ -79,6 +82,7 @@ h4{
 a{
     text-decoration: none;
     color: inherit;
+    background-color: inherit;
 }
 
 p{
@@ -87,9 +91,7 @@ p{
     color: var(--azul-cinza);
 }
 
-ul{
-    list-style: none;
-}
+
 
 button{
     cursor: pointer;
@@ -100,4 +102,11 @@ button{
     font-weight: 700;
     border: 1px solid var(--texto-escuro);
     margin: 0px 20px 0px 0px;
+}
+
+hr{
+    border: none;
+    height: 2px;
+    background-color: var(--texto-escuro);
+    margin-bottom: 10px;
 }

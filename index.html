@@ -22,15 +22,15 @@
                 <li><a href="#inicio">Início</a></li>
                 <li><a href="#sobre">Sobre mim</a></li>
                 <li><a href="#habilidades">Habilidades</a></li>
-                <li><a href="">Projetos</a></li>
-                <li><a href="">Contato</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
             </ul>
         </div>
     </header>
     <!-- corpo -->
     <main>
         <!-- pargina inicial -->
-        <div id="inicio" class="estrutura-inicial">
+        <section id="inicio" class="estrutura-inicial">
             <div class="conteudo-inicio">
                 <div class="estilo-nome-azul espaçamento">
                     <span class="linha"></span>
@@ -79,9 +79,9 @@
                 </div>
 
             </div>
-        </div>
+        </section>
         <!-- pagina sobre mim -->
-        <div id="sobre" class="estrutura-inicial">
+        <section id="sobre" class="estrutura-inicial">
             <div class="conteudo-sobre">
                 <div class="teste">
                     <img src="./img/foto-original-sem-fundo (2).png" alt="">
@@ -99,7 +99,7 @@
                         <span>SOBRE MIM</span>
                     </div>
                     <h2 class="titulo">Construindo o futuro através da web.</h2>
-                    <p class="textos negrito">Olá, sou o Welington. Sou um estudante de programação autodidata e apaixonado por transformar ideias complexas em experiências digitais intuitivas.</p>
+                    <p class="negrito textos ">Olá, sou o Welington. Sou um estudante de programação autodidata e apaixonado por transformar ideias complexas em experiências digitais intuitivas.</p>
                     <p class="textos">Atualmente, foco em construir uma base sólida em tecnologias de interface, com o objetivo claro de me tornar um desenvolvedor front-end de alto nível.</p>
                     <h4 class="sub-titulos">TECH STACK</h4>
                     <div class="largura-maxima">
@@ -110,10 +110,10 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
         <!-- pagina de habilidades -->
-         <div id="habilidades" class="estrutura-inicial">
-            <div>
+         <section id="habilidades" class="estrutura-inicial">
+            <div class="alinhamento-padding">
                 <div class="alinhamento-texto">
 
                     <div class="estilo-nome-azul espaçamento">
@@ -178,10 +178,51 @@
                     </div>
                 </div>
             </div>
-         </div>
+         </section>
+         <!-- pagina de projetos -->
+        <section id="projetos" class="estrutura-inicial">
+            <div class="alinhamento-padding">
+                <div class="alinhamento-texto">
+                    <div class="estilo-nome-azul espaçamento">
+                        <span class="linha"></span>
+                        <span>HABILIDADES</span>
+                    </div>
+                    <h2 class="titulo">
+                        Coisas que eu construí para aprender.
+                    </h2>
+                    <p class="textos">
+                        Cada projeto começou com uma dúvida e terminou com algo funcionando. Os links levam para o código.
+                    </p>
+                </div>
+                
+                <div class="card-projetos">
+                    <div>
+                        <span class="textos">01</span>
+                    </div>
+                    <div>
+                        <h3 class="titulo-projeto">Clima Agora</h3>
+                        <span class="textos">2026</span>
+                    </div>
+                    <div>
+                        <p class="textos">App de previsão do tempo que consome API pública e mostra os próximos 5 dias com busca por cidade</p>
+                        <span class="stacks">JavaScript</span>
+                        <span class="stacks">API REST</span>
+                        <span class="stacks">CSS Grid</span>
+                    </div>
+                    <div class="ali-img">
+                        <img src="./img/arrowbackoutline_110825.svg" alt="">
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- pagina de contato -->
+        <section id="contato" class="desing-footer">
+            <div></div>
+            <div></div>
+            <footer></footer>
+        </section>
     </main>
-    <!-- rodapé -->
-    <footer></footer>
     <script src="./js/main.js"></script>
 </body>
 </html>

@@ -2,8 +2,8 @@
 @import url('../css/inicio.css');
 @import url('../css/sobre.css');
 @import url('../css/habilidades.css');
-/* @import url('projetos.css');
-@import url('contato.css'); */
+@import url('../css/projetos.css');
+@import url('../css/contato.css');
 
 :root {
     --fundo: #fafbfc;
@@ -30,6 +30,7 @@
     font-size: 18px;
     font-family: var(--font-sans);
     margin-bottom: 20px;
+    color: var(--azul-cinza);
 }
 
 .sub-titulos{
@@ -58,6 +59,10 @@
 .largura-maxima{
     width: 80%;
     display: block;
+}
+
+.alinhamento-padding{
+    padding: 96px;
 }
 
 * {

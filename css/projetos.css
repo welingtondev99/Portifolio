@@ -1,0 +1,35 @@
+.card-projetos{
+    border-top: 1px solid var(--texto-escuro);
+    border-bottom: 1px solid var(--texto-escuro);
+    display: grid;
+    grid-auto-flow: column;
+    padding: 40px 8px 40px 8px;
+    grid-template-columns: 10% 20% 60% 5%;
+    gap: 18px;
+}
+
+.ali-img{
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.card-projetos img{
+    width: 36px;
+    padding: 8px;
+    rotate: 140deg;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.conteudo-projetos{
+    padding: 96px;
+}
+
+.titulo-projeto{
+    font-family: var(--font-display);
+    font-size: 30px;
+    margin-bottom: 4px;
+}

@@ -32,6 +32,7 @@
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
     width: 200px;
     height: 105px;
+    background-color: var(--fundo);
 }
 
 .teste2{

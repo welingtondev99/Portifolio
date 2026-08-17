@@ -19,6 +19,16 @@
   
 }
 
+.estrutura-inicial{
+    display: flex;
+    align-items: flex-start;
+    margin: auto;
+    /* height: 90vh; */
+    width: 80%;
+    flex-direction: column;
+}
+
+
 .titulo{
     font-size: 48px;
     font-family: var(--font-display);
@@ -66,7 +76,7 @@
 }
 
 * {
-    background-color: var(--fundo);
+    /* background-color: var(--fundo); */
     margin: 0;
     padding: 0;
     box-sizing: border-box;

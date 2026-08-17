@@ -1,21 +1,20 @@
 .conteudo-sobre{
     display: flex;
-    padding: 96px;
     gap: 100px;
 }
 
-.teste{
+.sobre__foto{
     position: relative;
     display: inline-block;
 }
 
-.teste img{
+.sobre__foto img{
     width: 380px;
     height: 480px;
     object-fit: cover;
     object-position: center top;
     border-radius: 15px;
-    background-color: var(--texto-escuro);
+    background-color: var(--borda);
     display: block;
     
 }
@@ -35,7 +34,7 @@
     background-color: var(--fundo);
 }
 
-.teste2{
+.sobre__status{
     font-size: 12px;
     display: grid;
     grid-auto-flow: column;
@@ -72,3 +71,4 @@
     font-weight: 600;
     margin-bottom: 10px;
 }
+

@@ -15,14 +15,14 @@
 
 .conteudo-inicio{
     margin-top: 5%;
-    padding: 96px;
+
     /* height: 100vh;
     height: 80%; */
     /* width: 85%; */
     /* border-bottom: 1px solid rgba(154, 154, 154, 0.861); */
 }
 
-.espaçamento{
+.espacamento{
     margin-bottom: 32px;
     display: inline-flex;
     gap: 20px;

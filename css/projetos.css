@@ -1,6 +1,6 @@
 .card-projetos{
-    border-top: 1px solid var(--texto-escuro);
-    border-bottom: 1px solid var(--texto-escuro);
+    border-top: 1px solid var(--borda);
+    border-bottom: 1px solid var(--borda);
     display: grid;
     grid-auto-flow: column;
     padding: 40px 8px 40px 8px;

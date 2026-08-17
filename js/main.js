@@ -1,3 +1,6 @@
+// import { arreyProjeto } from "./dados.js";
+// import { create } from "./projetos.js";
+
 // mudando cor do botão enviar
 const btnProjetos = document.querySelector(".but-projetos")
 const btnComigo = document.querySelector(".but-comigo")

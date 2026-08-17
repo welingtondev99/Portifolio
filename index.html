@@ -3,13 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portifólio Welington</title>
+    <!-- SEO básico -->
+    <title>Welington Ferreira | Desenvolvedor Front-end</title>
+    <meta name="description" content="Portfólio de Welington Ferreira, estudante de programação em busca de se tornar desenvolvedor front-end. HTML, CSS, JavaScript, React e Python.">
+    <meta name="author" content="Welington Ferreira">
+    <!-- Para compartilhamento social -->
+    <meta property="og:title" content="Welington Ferreira | Desenvolvedor Front-end">
+    <meta property="og:description" content="Portfólio de Welington Ferreira, estudante de programação.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://welingtondev99.github.io/Portifolio">
     <!-- importando fontes -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
     <!-- importando css -->
     <link rel="stylesheet" href="./css/global.css">
+    <link rel="icon" href="./img/programmer-favicon.png" type="image">
 </head>
 <body>
     <!-- cabeçalho -->
@@ -32,7 +41,7 @@
         <!-- pargina inicial -->
         <section id="inicio" class="estrutura-inicial">
             <div class="conteudo-inicio">
-                <div class="estilo-nome-azul espaçamento">
+                <div class="estilo-nome-azul espacamento">
                     <span class="linha"></span>
                     <span>PORTIFOLIO 2026</span>
                 </div>
@@ -42,13 +51,13 @@
                     </h1>
                     
                 </div>
-                <p class="espaçamento texto-inicio">
+                <p class="espacamento texto-inicio">
                     Estudante de programação a caminho de me tornar
                     desenvolvedor front-end. Aprendo construindo — cada
                     projeto aqui é um passo dessa jornada.
                 </p>
                 <div>
-                    <button class="espaçamento but-projetos">
+                    <button class="espacamento but-projetos">
                         VER PROJETOS
                         <span class="circulo">
                             <img src="./img/seta-esquerda.png" alt="">
@@ -83,18 +92,18 @@
         <!-- pagina sobre mim -->
         <section id="sobre" class="estrutura-inicial">
             <div class="conteudo-sobre">
-                <div class="teste">
-                    <img src="./img/foto-original-sem-fundo (2).png" alt="">
+                <div class="sobre__foto">
+                    <img src="./img/welington.png" alt="Retrato de Welington Ferreira">
                     <div class="sobre-div">
                         <p class="space-grotesk">DISPONIBILIDADE</p>
-                        <div class="teste2 espaçamento">
+                        <div class="sobre__status espacamento">
                             <span class="pisca"></span>
                             <p>Disponivel para contratação</p>
                         </div>
                     </div>
                 </div>
                 <div class="alinhamento-texto">
-                    <div class="estilo-nome-azul espaçamento">
+                    <div class="estilo-nome-azul espacamento">
                         <span class="linha"></span>
                         <span>SOBRE MIM</span>
                     </div>
@@ -116,7 +125,7 @@
             <div class="alinhamento-padding">
                 <div class="alinhamento-texto">
 
-                    <div class="estilo-nome-azul espaçamento">
+                    <div class="estilo-nome-azul espacamento">
                         <span class="linha"></span>
                         <span>HABILIDADES</span>
                     </div>
@@ -131,7 +140,7 @@
                     <div class="card-habilidades">
                     <img src="./img/colchetes.png" alt="">
                         <h4 class="sub-titulos">LINGUAGENS</h4>
-                        <ul class="ali">
+                        <ul class="card__lista">
                             <li>HTML</li>
                             <li>CSS</li>
                             <li>JavaScript</li>
@@ -143,7 +152,7 @@
                     <div class="card-habilidades">
                         <img src="./img/paleta-de-cores.png" alt="">
                         <h4 class="sub-titulos">INTERFACE</h4>
-                        <ul class="ali">
+                        <ul class="card__lista">
                             <li>React.js</li>
                             <li>Componentização</li>
                             <li>Layout Responsivo</li>
@@ -153,9 +162,9 @@
                         <p>Construindo interfaces que funcionam em qualquer tela.</p>
                     </div>
                     <div class="card-habilidades">
-                        <img src="./img/img ferramentas.png" alt="">
+                        <img src="./img/ferramentas.png" alt="">
                         <h4 class="sub-titulos">FERRAMENTAS</h4>
-                        <ul class="ali">
+                        <ul class="card__lista">
                             <li>Git & GitHub</li>
                             <li>VS Code</li>
                             <li>Terminal</li>
@@ -166,8 +175,8 @@
                     </div>
                     <div class="card-habilidades">
                         <img src="./img/programacao.png" alt="">
-                        <h4 class="sub-titulos">INTERFACE</h4>
-                        <ul class="ali">
+                        <h4 class="sub-titulos">ESTUDANDO AGORA</h4>
+                        <ul class="card__lista">
                             <li>TypeScript</li>
                             <li>Tailwind CSS</li>
                             <li>Consumo de APIs</li>
@@ -183,7 +192,7 @@
         <section id="projetos" class="estrutura-inicial">
             <div class="alinhamento-padding">
                 <div class="alinhamento-texto">
-                    <div class="estilo-nome-azul espaçamento">
+                    <div class="estilo-nome-azul espacamento">
                         <span class="linha"></span>
                         <span>PROJETOS</span>
                     </div>
@@ -194,8 +203,9 @@
                         Cada projeto começou com uma dúvida e terminou com algo funcionando. Os links levam para o código.
                     </p>
                 </div>
+                <div class="add_projetos"></div>
                 <!-- projeto 1 -->
-                <a href="" target="_blank" class="card-projetos ">
+                <a href="#" target="_blank" class="card-projetos ">
                     <div>
                         <span class="textos">01</span>
                     </div>
@@ -227,7 +237,7 @@
                     </div>
                 </a>
                 <!-- projeto 2 -->
-                <a href="" target="_blank" class="card-projetos ">
+                <a href="#" target="_blank" class="card-projetos ">
                     <div>
                         <span class="textos">02</span>
                     </div>
@@ -265,7 +275,7 @@
         <section id="contato" class="desing-contato">
             <div class="grid-contato">
                 <div class="org-text-contato">
-                    <div class="estilo-nome-azul espaçamento">
+                    <div class="estilo-nome-azul espacamento">
                         <span class="linha"></span>
                         <span>CONTATO</span>
                     </div>
@@ -313,6 +323,6 @@
             </div>
         </section>
     </main>
-    <script src="./js/main.js"></script>
+    <script type="module" src="js/main.js"></script>
 </body>
 </html>

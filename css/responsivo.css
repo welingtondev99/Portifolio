@@ -155,13 +155,15 @@ html {
     /* --- MENU --- */
     .nav {
         height: auto;
-        flex-direction: column;
-        justify-content: center;
+        /* flex-direction: column; */
+        justify-content: space-between;
         gap: 10px;
-        padding: 12px 16px;
+        padding: 12px 45px;
+    
     }
 
     .alinhamento-nave {
+        display: none;
         gap: 16px;
         flex-wrap: nowrap;
         overflow-x: auto;
